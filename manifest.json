@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Chess.com Shadow Mode",
+  "description": "Hide opponent info such as username, rating, title, and country when playing on Chess.com",
+  "version": "1.1.0",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.chess.com/game*",
+    "https://chess.com/game*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.chess.com/game*",
+        "https://chess.com/game*"
+      ],
+      "js": [
+        "extension.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_title": "Hide Opponent Info",
+    "default_popup": "popup.html"
+  }
+}
