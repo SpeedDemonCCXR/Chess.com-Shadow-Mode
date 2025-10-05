@@ -1,5 +1,4 @@
-# Instructions to use the extension
-* Create a new folder on your computer
-* Download all the 4 files and save them to that folder (please note that you need change the line const MY_USERNAME = 'Car-Geek'; (Line 3) in extension.js to whatever your Chess.com username is )
-* Go to chrome://extensions/ and enable developer mode. Then, choose the "Load Unpacked" option and choose the folder in which our files are saved
-* After the extension has been successfully added, simply check the checkbox when you want to use it and uncheck when you don't want to use it.
+An extension to hide your opponent username, rating, flag, country, title etc. when playing a game on Chess.com
+* Open Command Prompt clone the repository using the command: git clone https://github.com/SpeedDemonCCXR/Chess.com-Shadow-Mode.git
+* Open the file extension.js and in Line 3, change 'Car-Geek' to whatever your username is.
+* Go the chrome://extensions if you are on Chrome, or edge://extensions if you are on Edge. Enable Developer Mode, and click on 'Load Unpacked'. Now, locate the folder where the repository had been cloned, select  it and click on 'Open'.
